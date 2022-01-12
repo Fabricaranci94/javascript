@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* background-color: rgba(226, 133, 104, 0.563); */
+  background-image: url(images/martin-design-header-para-liric.jpg);
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* background-repeat: no-repeat;  */
+  /* background-size: cover; */
+  height: 20.375rem;
+}
+/* seccion productos */
+.productos {
+  margin-top: 0.9375rem;
+  background-color: rgb(66, 66, 64);
+}
+
+.encabezado {
+  color: whitesmoke;
+}
+
+/* carrito de compras */
+.carrito {
+  background-color: rgba(60, 55, 55, 0.665);
+}
+
+th {
+  position: relative;
+  padding: 70px;
+}
+
+/* espacio publicitario */
+
+.espacio-publicitario {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 4.9375rem;
+}
+
+/* seccion del formulario */
+
+.sec-formulario {
+  background-color: slategrey;
+  margin-top: 0.9375rem;
+}
+.tituloform {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+/* dando estilo al formulario */
+.nombre {
+  width: 350px;
+}
+
+.apellido {
+  width: 350px;
+}
+
+.mail {
+  width: 350px;
+}
+
+.sexo {
+  width: 150px;
+}
+.coment {
+  width: 400px;
+  height: 200px;
+}
